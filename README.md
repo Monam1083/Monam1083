@@ -65,7 +65,7 @@ My work spans state management (Riverpod, Provider), Firebase integration, REST 
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=Monam1083&theme=dark&hide_border=false)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&layout=compact)
 
 </div>
 
