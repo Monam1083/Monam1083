@@ -13,24 +13,18 @@
 
 ## 👨‍💻 About Me
 
-```dart
-class Monam extends FlutterDeveloper {
-  final String university    = "Lahore Garrison University";
-  final String degree        = "BS Software Engineering (2023–2027)";
-  final String currentFocus  = "Flutter · Mobile Apps · ML Integration";
-  final bool   openToWork    = true;   // Internships — onsite Lahore & remote
+Hey! I'm **Monam** — a Flutter Developer and Software Engineering student at **Lahore Garrison University** (Class of 2027), currently in my 6th semester.
 
-  @override
-  String toString() =>
-    "Turning ideas into smooth, pixel-perfect mobile apps.";
-}
-```
+I specialize in building clean, performant mobile applications using Flutter & Dart. I've got hands-on experience from my internship at **CodeAlpha**, where I worked on real-world Flutter projects, and I hold certifications from **IBM** and **Google Cloud**.
 
-- 🎓 6th Semester · Software Engineering @ LGU, Lahore
+My work spans state management (Riverpod, Provider), Firebase integration, REST APIs, local databases, and clean architecture patterns like MVVM and MVC. I enjoy blending mobile development with ML — from OCR-powered scanners to AI prediction systems.
+
+- 🎓 BS Software Engineering @ LGU, Lahore — 6th Semester
 - 💼 Ex Flutter Developer Intern @ **CodeAlpha**
 - 🏅 Certified by **IBM** & **Google Cloud**
-- 🔭 Currently building: AI-integrated Flutter apps + sharpening ML skills
-- 🌐 Portfolio: [monam.tech](https://monam.tech/)
+- 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
+- 🌍 Based in **Lahore, Pakistan** — open to onsite & remote internships
+- 🌐 [monam.tech](https://monam.tech/)
 
 ---
 
@@ -63,35 +57,6 @@ class Monam extends FlutterDeveloper {
 
 ---
 
-## 🚀 Featured Projects
-
-### 🔬 AI Blood Pressure Prediction System
-> Python · Flask · Random Forest · Decision Tree · Logistic Regression
-
-A machine learning web app that predicts blood pressure risk using three ensemble models — with a clean REST API built on Flask. Evaluated and compared model accuracy across all three classifiers.
-
-[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Monam1083)
-
----
-
-### 📇 Visiting Card Scanner
-> Flutter · ML Kit OCR · Android 11+ Permissions
-
-Smart business card scanner with real-time OCR using Google ML Kit. Handles Android 11+ manifest permissions and intent queries cleanly, with structured contact extraction from scanned cards.
-
-[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Monam1083)
-
----
-
-### 🌍 Language Translator App
-> Flutter · Material 3 · TTS · 30+ Languages
-
-A full-featured translation app supporting 30+ languages with voice input, text-to-speech, offline history, and a polished Material 3 dark mode UI.
-
-[![Live](https://img.shields.io/badge/See%20Portfolio-monam.tech-02569B?style=flat-square&logo=flutter&logoColor=white)](https://monam.tech/)
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -103,15 +68,6 @@ A full-featured translation app supporting 30+ languages with voice input, text-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 </div>
-
----
-
-## 🏅 Certifications
-
-| Issuer | Certification |
-|--------|--------------|
-| 🔵 IBM | Mobile App Development with Flutter |
-| ☁️ Google Cloud | Cloud Fundamentals |
 
 ---
 
