@@ -13,7 +13,7 @@
 
 ## 👨‍💻 About Me
 
-Hey! I'm **Monam** — a Flutter Developer and Software Engineering student at **Lahore Garrison University** (Class of 2027), currently in my 6th semester.
+Hey! I'm **Monam** — a Flutter Developer and Software Engineering student at **Lahore Garrison University** (Class of 2027), currnttly in my final year ( 6 semesters Complete).
 
 I specialize in building clean, performant mobile applications using Flutter & Dart. I've got hands-on experience from my internship at **CodeAlpha**, where I worked on real-world Flutter projects, and I hold certifications from **IBM** and **Google Cloud**.
 
