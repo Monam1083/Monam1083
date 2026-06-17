@@ -1,4 +1,4 @@
-### Flutter Developer · Mobile Engineer · BS Software Engineering
+### Flutter Developer · Mobile Application Developer · BS Software Engineering
 
 *Building clean, performant mobile experiences — one widget at a time.*
 
