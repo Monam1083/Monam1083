@@ -1,21 +1,15 @@
-<div align="center">
-
-# Hi,  👋 I'm Muhammad  Monam Majeed 
+# Hi, 👋 I'm Muhammad Monam Majeed
 
 ### Flutter Developer · Mobile Application Developer · BS Software Engineering
 
-*Building clean, performant mobile experiences — one widget at a time.*
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=02569B&center=true&vCenter=true&width=600&lines=Building+clean%2C+performant+mobile+apps;Flutter+%C2%B7+Firebase+%C2%B7+Clean+Architecture;Currently+building+TimeFlow+%40+Adivantech)](https://git.io/typing-svg)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-monam.tech-02569B?style=flat-square&logo=flutter&logoColor=white)](https://monam.tech/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:monammajeed1083@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Monam1083-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Monam1083)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-monam.tech-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://monam.tech/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:monammajeed1083@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Monam1083-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Monam1083)
 
-![Profile Views](https://komarev.com/ghpvc/?username=Monam1083&color=02569B&style=flat-square&label=Profile+Views)
-
-</div>
-
-<br>
+![Profile Views](https://komarev.com/ghpvc/?username=Monam1083&color=02569B&style=for-the-badge&label=Profile+Views)
 
 ## 👨‍💻 About Me
 
@@ -35,8 +29,6 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 - 🌍 Based in Lahore, Pakistan — open to onsite & remote internships
 - 🌐 [monam.tech](https://monam.tech/)
 
-<br>
-
 ## 🛠️ Tech Stack
 
 **Mobile & Frontend**
@@ -46,9 +38,9 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 
 **Architecture & State Management**
 
-![Riverpod](https://img.shields.io/badge/Riverpod-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Provider](https://img.shields.io/badge/Provider-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![GetX](https://img.shields.io/badge/GetX-8A2BE2?style=for-the-badge&logo=flutter&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-%2302569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Provider](https://img.shields.io/badge/Provider-%230175C2?style=for-the-badge&logo=dart&logoColor=white)
+![GetX](https://img.shields.io/badge/GetX-%238A2BE2?style=for-the-badge&logo=flutter&logoColor=white)
 ![MVVM](https://img.shields.io/badge/MVVM-Pattern-6DB33F?style=for-the-badge)
 ![MVC](https://img.shields.io/badge/MVC-Pattern-00897B?style=for-the-badge)
 
@@ -65,11 +57,9 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-<br>
 
 ## 🚀 Featured Projects
 
@@ -81,20 +71,11 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 | [**Weather App**](https://github.com/Monam1083/Weather-Mobile-Application) | Flutter · OpenWeather API | Location-based forecasts with animated weather conditions |
 | [**AI Blood Pressure Prediction**](https://github.com/Monam1083/AI-Blood-Pressure-Prediction-System) | Python · Flask · scikit-learn | Compares Random Forest, SVM & Logistic Regression models |
 
-<br>
-
 ## 📊 GitHub Stats
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.shion.dev/api?username=Monam1083&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
-<img height="165" src="https://streak-stats.demolab.com/?user=Monam1083&theme=dark&hide_border=false" />
-
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&layout=compact" />
-
-</div>
-
-<br>
+![](https://github-readme-stats.vercel.app/api?username=Monam1083&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![](https://streak-stats.demolab.com/?user=Monam1083&theme=dark&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&layout=compact)
 
 ## 📬 Let's Connect
 
@@ -102,10 +83,6 @@ I'm actively looking for **Flutter Developer internships** and collaborations �
 
 If you're building something cool in mobile, let's talk.
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-monam.tech-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://monam.tech/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:monammajeed1083@gmail.com)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://monam.tech/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:monammajeed1083@gmail.com)
