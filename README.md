@@ -75,7 +75,6 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 
 | Project | Stack | Highlights |
 |---|---|---|
-| [**TimeFlow**](https://github.com/Abbashussainofficial/time_flow) | Flutter · Firebase · GetX · Hive | Smart time-blocking/scheduling app — built during my Adivantech internship |
 | [**Visiting Card Scanner**](https://github.com/Monam1083/Visiting-Card-Scanner-Flutter-Application) | Flutter · Sqflite · Provider | ML Kit OCR contact scanner with full CRUD, camera integration, signed APK |
 | [**Language Translator**](https://github.com/Monam1083/Language-Translator-Application) | Flutter · Google Translate · STT/TTS | 30+ languages, real-time voice input, offline history, dark mode |
 | [**Flickd — Movie DB App**](https://github.com/Monam1083/Movie-Application) | Flutter · Riverpod · TMDB API | Search, trailers, cast info, and local watchlist storage |
