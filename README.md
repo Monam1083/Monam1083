@@ -73,9 +73,9 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=Monam1083&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://streak-stats.demolab.com/?user=Monam1083&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&layout=compact)
+[![](https://github-readme-stats.vercel.app/api?username=Monam1083&theme=dark&hide_border=false&include_all_commits=false&count_private=false)](https://github.com/Monam1083)
+[![](https://streak-stats.demolab.com/?user=Monam1083&theme=dark&hide_border=false)](https://github.com/Monam1083)
+[![](https://github-readme-stats.vercel.app/api/top-langs/?username=Monam1083&theme=dark&hide_border=false&layout=compact)](https://github.com/Monam1083)
 
 ## 📬 Let's Connect
 
