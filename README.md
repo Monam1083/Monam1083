@@ -13,18 +13,21 @@
 
 ## 👨‍💻 About Me
 
-Hey! I'm **Monam** — a Flutter Developer and Software Engineering student at **Lahore Garrison University** (Class of 2027), currnttly in my final year ( 6 semesters Complete).
+Hey! I'm Monam — a Flutter Developer and Software Engineering student at Lahore Garrison University (Class of 2027), currently in my 6th semester.
 
-I specialize in building clean, performant mobile applications using Flutter & Dart. I've got hands-on experience from my internship at **CodeAlpha**, where I worked on real-world Flutter projects, and I hold certifications from **IBM** and **Google Cloud**.
+I specialize in building clean, performant mobile applications using Flutter & Dart. I'm currently doing a Flutter Developer internship at Adivantech (Pvt) Ltd, and previously interned at CodeAlpha, where I worked on real-world Flutter projects. I hold certifications from IBM and Google Cloud.
 
 My work spans state management (Riverpod, Provider), Firebase integration, REST APIs, local databases, and clean architecture patterns like MVVM and MVC. I enjoy blending mobile development with ML — from OCR-powered scanners to AI prediction systems.
 
-- 🎓 BS Software Engineering @ LGU, Lahore — 6th Semester
-- 💼 Ex Flutter Developer Intern @ **CodeAlpha**
-- 🏅 Certified by **IBM** & **Google Cloud**
-- 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
-- 🌍 Based in **Lahore, Pakistan** — open to onsite & remote internships
-- 🌐 [monam.tech](https://monam.tech/)
+
+🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
+💼 Flutter Developer Intern @ Adivantech (Pvt) Ltd — building TimeFlow, a smart time-blocking app
+🧑‍💻 Ex Flutter Developer Intern @ CodeAlpha
+🏅 Certified by IBM & Google Cloud
+🧾 Completed Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
+🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
+🌍 Based in Lahore, Pakistan — open to onsite & remote internships
+🌐 monam.tech
 
 ---
 
