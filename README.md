@@ -70,12 +70,25 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 | [**Flickd — Movie DB App**](https://github.com/Monam1083/Movie-Application) | Flutter · Riverpod · TMDB API | Search, trailers, cast info, and local watchlist storage |
 | [**Weather App**](https://github.com/Monam1083/Weather-Mobile-Application) | Flutter · OpenWeather API | Location-based forecasts with animated weather conditions |
 | [**AI Blood Pressure Prediction**](https://github.com/Monam1083/AI-Blood-Pressure-Prediction-System) | Python · Flask · scikit-learn | Compares Random Forest, SVM & Logistic Regression models |
-
 ## 📊 GitHub Stats
 
-[![](https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/stats.svg)](https://github.com/Monam1083)
-[![](https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/streak.svg)](https://github.com/Monam1083)
-[![](https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/top-langs.svg)](https://github.com/Monam1083)
+<p align="center">
+  <a href="https://github.com/Monam1083">
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/stats.svg" alt="GitHub Stats" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Monam1083">
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/streak.svg" alt="GitHub Streak" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Monam1083">
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/top-langs.svg" alt="Top Languages" />
+  </a>
+</p>
 
 ## 📬 Let's Connect
 
