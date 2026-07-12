@@ -1,4 +1,4 @@
-<img width="878" height="218" alt="banner 1" src="https://github.com/user-attachments/assets/344f06b4-3449-4677-b41b-47df55e3569c" />
+<img width="878" height="218" alt="banner" src="https://github.com/user-attachments/assets/344f06b4-3449-4677-b41b-47df55e3569c" />
 
 # Hi, 👋 I'm Muhammad Monam Majeed
 
@@ -15,21 +15,17 @@
 
 ## 👨‍💻 About Me
 
-Hey! I'm Monam — a Flutter Developer and Software Engineering student at Lahore Garrison University (Class of 2027), currently in my 6th semester.
+I'm a Software Engineering student at Lahore Garrison University (6th semester, Class of 2027) specializing in building clean, performant mobile applications with Flutter and Dart. My work spans state management (Riverpod, Provider, GetX), Firebase integration, REST APIs, local databases, and architecture patterns like MVVM and MVC. I enjoy blending mobile development with ML — from OCR-powered scanners to AI prediction systems.
 
-I specialize in building clean, performant mobile applications using Flutter & Dart. I'm currently doing a Flutter Developer internship at **Adivantech (Pvt) Ltd**, building **TimeFlow** — a smart time-blocking app — and previously interned at **CodeAlpha**, where I worked on real-world Flutter projects. I hold certifications from **IBM** and **Google Cloud**.
-
-My work spans state management (Riverpod, Provider, GetX), Firebase integration, REST APIs, local databases, and clean architecture patterns like MVVM and MVC. I enjoy blending mobile development with ML — from OCR-powered scanners to AI prediction systems.
+I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building **TimeFlow**, a smart time-blocking app. I previously interned at **CodeAlpha** working on real-world Flutter projects, and I'm certified by **IBM** and **Google Cloud**, with completed Forage job simulations from JPMorgan Chase & Co., Walmart Global Tech, and Deloitte.
 
 - 🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
 - 💼 Flutter Developer Intern @ **Adivantech (Pvt) Ltd** — building *TimeFlow*
 - 🧑‍💻 Ex Flutter Developer Intern @ **CodeAlpha**
-- 🏅 Certified by IBM & Google Cloud
-- 🧾 Completed Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
+- 🏅 Certified by IBM & Google Cloud · Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
 - 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
 - 🌱 Actively contributing to open source via fork → commit → PR workflows
 - 🌍 Based in Lahore, Pakistan — open to onsite & remote internships
-- 🌐 [monam.tech](https://monam.tech/)
 
 ## 🛠️ Tech Stack
 
@@ -72,6 +68,7 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 | [**Flickd — Movie DB App**](https://github.com/Monam1083/Movie-Application) | Flutter · Riverpod · TMDB API | Search, trailers, cast info, and local watchlist storage |
 | [**Weather App**](https://github.com/Monam1083/Weather-Mobile-Application) | Flutter · OpenWeather API | Location-based forecasts with animated weather conditions |
 | [**AI Blood Pressure Prediction**](https://github.com/Monam1083/AI-Blood-Pressure-Prediction-System) | Python · Flask · scikit-learn | Compares Random Forest, SVM & Logistic Regression models |
+
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -94,10 +91,4 @@ My work spans state management (Riverpod, Provider, GetX), Firebase integration,
 
 ## 📬 Let's Connect
 
-I'm actively looking for **Flutter Developer internships** and collaborations — onsite in **Lahore** or **remote**.
-
-If you're building something cool in mobile, let's talk.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://monam.tech/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:monammajeed1083@gmail.com)
+I'm actively looking for **Flutter Developer internships** and collaborations — onsite in **Lahore** or **remote**. If you're building something cool in mobile, [let's talk](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/).
