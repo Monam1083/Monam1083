@@ -1,4 +1,3 @@
-<img width="878" height="218" alt="banner" src="https://github.com/user-attachments/assets/344f06b4-3449-4677-b41b-47df55e3569c" />
 
 # Hi, 👋 I'm Muhammad Monam Majeed
 
