@@ -88,6 +88,4 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
   </a>
 </p>
 
-## 📬 Let's Connect
 
-I'm actively looking for **Flutter Developer internships** and collaborations — onsite in **Lahore** or **remote**. If you're building something cool in mobile, [let's talk](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/).
