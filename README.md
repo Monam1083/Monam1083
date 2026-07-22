@@ -20,8 +20,8 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
 
 - 🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
 - 💼 Flutter Developer Intern @ **Adivantech (Pvt) Ltd** — building *TimeFlow*
-- 🧑‍💻 Ex Flutter Developer Intern @ **CodeAlpha**
-- 🏅 Certified by IBM & Google Cloud · Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
+- 🏅 Certified by IBM & Google Cloud · 
+-  Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
 - 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
 - 🌱 Actively contributing to open source via fork → commit → PR workflows
 - 🌍 Based in Lahore, Pakistan — open to onsite & remote internships
