@@ -99,6 +99,6 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-kannan.vercel.app/?username=Monam1083&theme=algolia&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/trophy.svg" alt="GitHub Trophies" />
   </a>
 </p>
