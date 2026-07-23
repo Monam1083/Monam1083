@@ -1,4 +1,3 @@
-
 # Hi, 👋 I'm Muhammad Monam Majeed
 
 ### Flutter Developer · Mobile Application Developer · BS Software Engineering
@@ -88,4 +87,18 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
   </a>
 </p>
 
+## 🎮 3D Contribution Graph
 
+<p align="center">
+  <a href="https://github.com/Monam1083">
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="90%"/>
+  </a>
+</p>
+
+## 🏆 Trophies
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Monam1083&theme=algolia&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  </a>
+</p>
