@@ -15,7 +15,7 @@
 
 I'm a Software Engineering student at Lahore Garrison University (6th semester, Class of 2027) specializing in building clean, performant mobile applications with Flutter and Dart. My work spans state management (Riverpod, Provider, GetX), Firebase integration, REST APIs, local databases, and architecture patterns like MVVM and MVC. I enjoy blending mobile development with ML — from OCR-powered scanners to AI prediction systems.
 
-I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building **TimeFlow**, a smart time-blocking app. I previously interned at **CodeAlpha** working on real-world Flutter projects, and I'm certified by **IBM** and **Google Cloud**, with completed Forage job simulations from JPMorgan Chase & Co., Walmart Global Tech, and Deloitte.
+I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building **TimeFlow**, a smart time-blocking app and I'm certified by **IBM** and **Google Cloud**, with completed Forage job simulations from JPMorgan Chase & Co., Walmart Global Tech, and Deloitte.
 
 - 🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
 - 💼 Flutter Developer Intern @ **Adivantech (Pvt) Ltd** — building *TimeFlow*
