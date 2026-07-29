@@ -1,6 +1,6 @@
 # Hi, 👋 I'm Muhammad Monam Majeed
 
-### Flutter Developer · Mobile Application Developer · BS Software Engineering
+### Flutter Developer · Mobile Application Developer · BS Software Engineering Student
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=02569B&center=true&vCenter=true&width=600&lines=Building+clean%2C+performant+mobile+apps;Flutter+%C2%B7+Firebase+%C2%B7+Clean+Architecture;Currently+building+TimeFlow+%40+Adivantech)](https://git.io/typing-svg)
 
