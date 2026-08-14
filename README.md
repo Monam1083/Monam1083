@@ -1,96 +1,1528 @@
-# Hi, 👋 I'm Muhammad Monam Majeed
+<!DOCTYPE html>
+<!--
+  Portfolio of Muhammad Monam Majeed — https://monam.tech
+  © 2026 Muhammad Monam Majeed. All rights reserved.
+  This design, layout, and code are original work.
+  Unauthorized reproduction or redistribution is not permitted.
+  Repo: https://github.com/Monam1083/Portfolio
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Muhammad Monam Majeed | Expert Flutter Developer in Lahore, Pakistan</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+  <meta name="title" content="Muhammad Monam Majeed | Expert Flutter Developer in Lahore, Pakistan">
+  <meta name="description" content="Portfolio of Muhammad Monam Majeed, a top-tier Software Engineering student and expert Flutter Developer based in Lahore, Pakistan. Hire for cross-platform mobile apps, Firebase, and MERN stack projects.">
+  <meta name="keywords" content="Flutter Developer Lahore, Hire Mobile App Developer Pakistan, Muhammad Monam Majeed, Best Software Engineer Lahore, Flutter, Dart, Firebase, MERN Stack, Cross-platform App Developer, iOS Android Developer">
+  <meta name="author" content="Muhammad Monam Majeed">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://monam.tech/">
 
-### Flutter Developer · Mobile Application Developer · BS Software Engineering Student
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://monam.tech/">
+  <meta property="og:title" content="Muhammad Monam Majeed | Expert Flutter Developer Lahore">
+  <meta property="og:description" content="Explore the portfolio of Muhammad Monam Majeed, a passionate Software Engineer and mobile app developer crafting highly scalable, pixel-perfect Flutter applications.">
+  <meta property="og:image" content="https://monam.tech/monam.jpeg">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=02569B&center=true&vCenter=true&width=600&lines=Building+clean%2C+performant+mobile+apps;Flutter+%C2%B7+Firebase+%C2%B7+Clean+Architecture;Currently+building+TimeFlow+%40+Adivantech)](https://git.io/typing-svg)
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://monam.tech/">
+  <meta property="twitter:title" content="Muhammad Monam Majeed | Expert Flutter Developer Lahore">
+  <meta property="twitter:description" content="Explore the portfolio of Muhammad Monam Majeed, a passionate Software Engineer and mobile app developer crafting highly scalable, pixel-perfect Flutter applications.">
+  <meta property="twitter:image" content="https://monam.tech/monam.jpeg">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-monam-majeed-b33b07379/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-monam.tech-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://monam.tech/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:monammajeed1083@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Monam1083-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Monam1083)
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    :root {
+      --black: #080808;
+      --white: #f0ece4;
+      --cream: #e8e0d0;
+      --green: #10B981;
+      --gold: #c9a84c;
+      --muted: #888070;
+      --grid: rgba(240,236,228,0.04);
+      --whatsapp: #25D366;
+    }
+    
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'Space Mono', monospace;
+      overflow-x: hidden;
+      cursor: none;
+    }
+    
+    .cursor { position: fixed; top: 0; left: 0; z-index: 9999; pointer-events: none; }
+    .cursor-dot {
+      width: 8px; height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: transform 0.1s ease;
+    }
+    .cursor-ring {
+      position: fixed; top: 0; left: 0;
+      width: 40px; height: 40px;
+      border: 1px solid rgba(240,236,228,0.5);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 9998;
+      transition: width 0.3s ease, height 0.3s ease, border-color 0.3s ease, transform 0.08s ease;
+    }
+    .cursor-ring.hovered { width: 64px; height: 64px; border-color: var(--green); }
+    
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      opacity: 0.03;
+      pointer-events: none;
+      z-index: 9997;
+    }
+    
+    .grid-bg {
+      position: fixed; inset: 0; z-index: 0;
+      background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 80px 80px;
+      pointer-events: none;
+    }
+    
+    #loader {
+      position: fixed; inset: 0;
+      background: var(--black);
+      z-index: 9000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .loader-count {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(80px, 20vw, 200px);
+      color: var(--white);
+      line-height: 1;
+    }
+    .loader-bar-wrap { width: 300px; height: 1px; background: rgba(240,236,228,0.15); overflow: hidden; }
+    .loader-bar { height: 100%; background: var(--green); width: 0%; transition: width 0.05s linear; }
+    .loader-text { font-size: 11px; letter-spacing: 0.3em; color: var(--muted); text-transform: uppercase; }
+    
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 28px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    nav.visible { opacity: 1; transform: translateY(0); }
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      letter-spacing: 0.15em;
+      color: var(--white);
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--green); }
+    .nav-links { display: flex; gap: 40px; list-style: none; }
+    .nav-links a {
+      font-size: 11px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.3s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute; bottom: -4px; left: 0;
+      width: 0; height: 1px;
+      background: var(--green);
+      transition: width 0.3s ease;
+    }
+    .nav-links a:hover { color: var(--white); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-resume-link {
+      color: var(--green) !important;
+      border: 1px solid rgba(16,185,129,0.3);
+      padding: 6px 14px !important;
+      border-radius: 4px;
+      transition: background 0.3s, color 0.3s !important;
+    }
+    .nav-resume-link:hover { background: rgba(16,185,129,0.1) !important; }
+    .nav-resume-link::after { display: none !important; }
+    
+    #hero {
+      position: relative; z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 48px;
+      padding-top: 100px;
+      padding-bottom: 120px;
+      overflow: hidden;
+    }
+    
+    .hero-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 32px;
+      opacity: 0;
+      transform: translateX(-30px);
+      transition: opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s;
+    }
+    .hero-eyebrow.visible { opacity: 1; transform: translateX(0); }
+    
+    .hero-title-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(60px, 11vw, 180px);
+      line-height: 0.9;
+      color: var(--white);
+      overflow: hidden;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .hero-title-line {
+      display: block;
+      transform: translateY(110%);
+      transition: transform 0.9s cubic-bezier(0.16,1,0.3,1);
+    }
+    .hero-title-line.slide-up { transform: translateY(0); }
+    .hero-title-line.green { color: var(--green); }
+    
+    .hero-profile-pic {
+      width: clamp(250px, 30vw, 400px);
+      height: clamp(350px, 40vw, 480px);
+      object-fit: cover;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 1s ease 0.8s, transform 1s cubic-bezier(0.16,1,0.3,1) 0.8s;
+    }
+    .hero-profile-pic.visible { opacity: 1; transform: translateY(0); }
 
-![Profile Views](https://komarev.com/ghpvc/?username=Monam1083&color=02569B&style=for-the-badge&label=Profile+Views)
+    .hero-socials {
+      display: flex;
+      gap: 32px;
+      margin-top: 32px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease 0.9s, transform 0.8s ease 0.9s;
+    }
+    .hero-socials.visible { opacity: 1; transform: translateY(0); }
+    .hero-socials a {
+      font-size: 13px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color 0.3s;
+    }
+    .hero-socials a i { font-size: 20px; }
+    .hero-socials a:hover { color: var(--white); }
+    .hero-socials a:hover .fa-whatsapp { color: var(--whatsapp); }
 
-## 👨‍💻 About Me
+    .hero-subtitle {
+      position: relative;
+      margin-top: 32px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease 1.1s, transform 0.8s ease 1.1s;
+      z-index: 10;
+    }
+    .hero-subtitle.visible { opacity: 1; transform: translateY(0); }
+    .hero-desc { font-size: 13px; line-height: 1.8; color: var(--muted); max-width: 480px; }
 
-I'm a Software Engineering student at Lahore Garrison University (6th semester, Class of 2027) specializing in building clean, performant mobile applications with Flutter and Dart. My work spans state management (Riverpod, Provider, GetX), Firebase integration, REST APIs, local databases, and architecture patterns like MVVM and MVC. I enjoy blending mobile development with ML — from OCR-powered scanners to AI prediction systems.
+    .marquee-wrap {
+      position: absolute;
+      bottom: 30px; left: 0; right: 0;
+      overflow: hidden;
+      border-top: 1px solid rgba(240,236,228,0.08);
+      border-bottom: 1px solid rgba(240,236,228,0.08);
+      padding: 16px 0;
+    }
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee 20s linear infinite;
+    }
+    .marquee-item {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.3em;
+      color: var(--muted);
+      padding: 0 48px;
+      white-space: nowrap;
+    }
+    .marquee-item span { color: var(--green); margin: 0 8px; }
+    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    
+    section { position: relative; z-index: 1; padding: 120px 48px; }
+    
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 64px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .section-label::before { content: ''; display: block; width: 40px; height: 1px; background: var(--green); }
+    
+    #about { background: #0c0c0c; border-top: 1px solid rgba(240,236,228,0.06); }
+    .about-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .about-heading {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(36px, 5vw, 72px);
+      line-height: 1.1;
+      color: var(--white);
+      margin-bottom: 32px;
+    }
+    .about-heading em { color: var(--gold); font-style: italic; }
+    .about-body { font-size: 14px; line-height: 2; color: var(--muted); margin-bottom: 20px; }
+    
+    .skills-list { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-top: 40px; }
+    .skill-item {
+      padding: 20px 24px;
+      background: rgba(240,236,228,0.03);
+      border: 1px solid rgba(240,236,228,0.06);
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .skill-item i { font-size: 20px; color: var(--gold); transition: color 0.3s; }
+    .skill-item::before {
+      content: '';
+      position: absolute; left: 0; top: 0; bottom: 0;
+      width: 2px;
+      background: var(--green);
+      transform: scaleY(0);
+      transition: transform 0.3s ease;
+    }
+    .skill-item:hover { background: rgba(16,185,129,0.06); color: var(--white); border-color: rgba(16,185,129,0.2); }
+    .skill-item:hover::before { transform: scaleY(1); }
+    .skill-item:hover i { color: var(--green); }
 
-I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building **TimeFlow**, a smart time-blocking app and I'm certified by **IBM** and **Google Cloud**, with completed Forage job simulations from JPMorgan Chase & Co., Walmart Global Tech, and Deloitte.
+    #work { background: var(--black); }
+    .work-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+    .work-item { position: relative; overflow: hidden; cursor: none; background: #0f0f0f; }
+    .work-item:first-child { grid-column: 1 / -1; }
+    .work-thumb {
+      width: 100%; height: 380px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.8s cubic-bezier(0.16,1,0.3,1), filter 0.8s ease;
+      filter: grayscale(30%) brightness(0.4);
+    }
+    .work-item:first-child .work-thumb { height: 560px; }
+    .work-item:hover .work-thumb { transform: scale(1.06); filter: grayscale(0%) brightness(0.7); }
+    .work-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(8,8,8,0.95) 0%, transparent 80%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 36px;
+    }
+    .work-category { font-size: 10px; letter-spacing: 0.35em; text-transform: uppercase; color: var(--green); margin-bottom: 10px; }
+    .work-name {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(24px, 3vw, 44px);
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 12px;
+      transform: translateY(12px);
+      transition: transform 0.5s ease;
+    }
+    .work-item:hover .work-name { transform: translateY(0); }
+    .work-desc {
+      font-size: 13px;
+      color: var(--muted);
+      max-width: 400px;
+      margin-bottom: 20px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.5s ease 0.1s, transform 0.5s ease 0.1s;
+    }
+    .work-item:hover .work-desc { opacity: 1; transform: translateY(0); }
+    .work-links { opacity: 1; transform: translateY(0); display: flex; gap: 12px; flex-wrap: wrap; }
+    
+    .work-thumb--svg {
+      width: 100%; height: 380px;
+      display: block;
+      overflow: hidden;
+      transition: filter 0.8s ease;
+      filter: brightness(0.7);
+    }
+    .work-item:first-child .work-thumb--svg { height: 560px; }
+    .work-item:hover .work-thumb--svg { filter: brightness(1); }
+    .work-thumb--svg svg { display: block; width: 100%; height: 100%; }
 
-- 🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
-- 💼 Flutter Developer Intern @ **Adivantech (Pvt) Ltd** — building *TimeFlow*
-- 🏅 Certified by IBM & Google Cloud · 
-- 💼 Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
-- 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
-- 🌱 Actively contributing to open source via fork → commit → PR workflows
-- 🌍 Based in Lahore, Pakistan — open to onsite & remote internships
+    .github-btn, .demo-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--white);
+      text-decoration: none;
+      border: 1px solid rgba(240,236,228,0.2);
+      padding: 8px 16px;
+      transition: background 0.3s, border-color 0.3s, color 0.3s;
+    }
+    .github-btn:hover { background: rgba(16,185,129,0.1); border-color: var(--green); }
+    .demo-btn { color: var(--black); background: var(--white); border: 1px solid var(--white); }
+    .demo-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--black); }
+    
+    #resume { border-top: 1px solid rgba(240,236,228,0.06); background: #0c0c0c; }
 
-## 🛠️ Tech Stack
+    .card-container { display: flex; flex-direction: column; gap: 20px; margin-bottom: 80px; }
+    .timeline-card {
+      background-color: #1E1E1E;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 25px;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+      cursor: none;
+    }
+    .timeline-card:hover { border-color: var(--green); transform: translateY(-2px); }
+    .icon-box {
+      background-color: rgba(16,185,129,0.1);
+      color: var(--green);
+      width: 50px; height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid rgba(16,185,129,0.2);
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .card-content { display: flex; flex-direction: column; align-items: flex-start; flex: 1; }
+    .card-content h3 { color: var(--white); margin: 0 0 5px 0; font-family: 'DM Serif Display', serif; font-size: 24px; }
+    .institution { color: var(--muted); margin: 0 0 8px 0; font-family: 'Space Mono', monospace; font-size: 13px; }
+    .institution.company-name { color: #FFD447; }
+    .exp-desc { color: var(--muted); font-size: 13px; line-height: 1.8; margin: 8px 0 12px 0; font-family: 'Space Mono', monospace; }
+    .exp-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+    .exp-tag {
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--green);
+      border: 1px solid rgba(16,185,129,0.25);
+      background: rgba(16,185,129,0.07);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-family: 'Space Mono', monospace;
+    }
+    .date-pill {
+      background-color: rgba(16,185,129,0.1);
+      color: var(--green);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: 'Space Mono', monospace;
+      border: 1px solid rgba(16,185,129,0.2);
+    }
 
-**Mobile & Frontend**
+    .certifications-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .cert-box {
+      position: relative;
+      aspect-ratio: 4/3;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid rgba(240,236,228,0.05);
+    }
+    .cert-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .cert-box:hover img { transform: scale(1.05); }
+    .cert-name {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 16px;
+      background: linear-gradient(transparent, rgba(0,0,0,0.9));
+      color: var(--white);
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      transform: translateY(10px);
+      opacity: 0;
+      transition: 0.3s ease;
+    }
+    .cert-box:hover .cert-name { transform: translateY(0); opacity: 1; }
 
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+    #contact {
+      background: var(--black);
+      border-top: 1px solid rgba(240,236,228,0.06);
+      text-align: center;
+      padding: 160px 48px;
+      overflow: hidden;
+      position: relative;
+    }
+    .contact-bg-text {
+      position: absolute;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(100px, 22vw, 380px);
+      color: rgba(240,236,228,0.02);
+      white-space: nowrap;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      user-select: none;
+    }
+    .contact-inner { position: relative; z-index: 1; }
+    .contact-heading { font-family: 'DM Serif Display', serif; font-size: clamp(48px, 8vw, 120px); color: var(--white); line-height: 1; margin-bottom: 16px; }
+    .contact-heading em { color: var(--gold); font-style: italic; }
+    .contact-subheading { font-size: 13px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); margin-bottom: 32px; }
+    .contact-availability {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(16,185,129,0.08);
+      border: 1px solid rgba(16,185,129,0.2);
+      border-radius: 40px;
+      padding: 10px 20px;
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 60px;
+    }
+    .contact-availability-dot {
+      width: 8px; height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.7); }
+    }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; max-width: 1000px; margin: 0 auto; text-align: left; }
+    .contact-info p { font-size: 14px; color: var(--muted); margin-bottom: 40px; line-height: 1.8; }
+    .contact-links-stack { display: flex; flex-direction: column; gap: 20px; }
+    .contact-method {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      letter-spacing: 0.1em;
+      color: var(--white);
+      text-decoration: none;
+      transition: color 0.3s;
+      display: flex; align-items: center; gap: 16px;
+    }
+    .contact-method i { color: var(--green); font-size: 24px; transition: color 0.3s; }
+    .contact-method:hover { color: var(--green); }
+    .contact-method.wa-link:hover i, .contact-method.wa-link i { color: var(--whatsapp); }
 
-**Architecture & State Management**
+    .project-form { display: flex; flex-direction: column; gap: 20px; }
+    .form-group input, .form-group textarea {
+      width: 100%;
+      background: transparent;
+      border: 1px solid rgba(240,236,228,0.15);
+      padding: 16px;
+      color: var(--white);
+      font-family: 'Space Mono', monospace;
+      font-size: 13px;
+      transition: border-color 0.3s;
+    }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-group input:focus, .form-group textarea:focus { border-color: var(--green); outline: none; }
+    .submit-btn {
+      background: var(--green);
+      color: var(--white);
+      border: none;
+      padding: 16px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.15em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .submit-btn:hover { background: #0e9f6e; }
+    
+    footer {
+      position: relative; z-index: 1;
+      padding: 24px 48px;
+      border-top: 1px solid rgba(240,236,228,0.06);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-copy { font-size: 11px; letter-spacing: 0.2em; color: var(--muted); text-transform: uppercase; }
+    .footer-ownership { font-size: 10px; letter-spacing: 0.05em; color: var(--muted); opacity: 0.7; margin-top: 6px; text-transform: none; }
+    .footer-license-link { color: var(--green); text-decoration: underline; text-underline-offset: 2px; }
+    .footer-license-link:hover { color: var(--white); }
+    
+    .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.16,1,0.3,1); }
+    .reveal.revealed { opacity: 1; transform: translateY(0); }
+    .reveal-slide { opacity: 0; transform: translateX(40px); transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16,1,0.3,1); }
+    .reveal-slide.revealed { opacity: 1; transform: translateX(0); }
+    
+    .orb { position: fixed; border-radius: 50%; pointer-events: none; z-index: 0; filter: blur(120px); opacity: 0.12; animation: drift 20s ease-in-out infinite alternate; }
+    .orb1 { width: 600px; height: 600px; background: radial-gradient(circle, var(--green), transparent 70%); top: -200px; right: -200px; animation-duration: 18s; }
+    .orb2 { width: 500px; height: 500px; background: radial-gradient(circle, #1a3a6a, transparent 70%); bottom: -200px; left: -200px; animation-duration: 24s; }
+    @keyframes drift { from { transform: translate(0,0) rotate(0deg); } to { transform: translate(40px,40px) rotate(15deg); } }
+    
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 30px; right: 30px;
+      width: 60px; height: 60px;
+      background-color: var(--whatsapp);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      z-index: 8000;
+      text-decoration: none;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .floating-whatsapp:hover { transform: scale(1.1); background-color: #1ebe57; color: white; }
 
-![Riverpod](https://img.shields.io/badge/Riverpod-%2302569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Provider](https://img.shields.io/badge/Provider-%230175C2?style=for-the-badge&logo=dart&logoColor=white)
-![GetX](https://img.shields.io/badge/GetX-%238A2BE2?style=for-the-badge&logo=flutter&logoColor=white)
-![MVVM](https://img.shields.io/badge/MVVM-Pattern-6DB33F?style=for-the-badge)
-![MVC](https://img.shields.io/badge/MVC-Pattern-00897B?style=for-the-badge)
+    /* ── GitHub Stats Section ── */
+    #github-stats {
+      background: #0c0c0c;
+      border-top: 1px solid rgba(240,236,228,0.06);
+    }
+    .github-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-bottom: 48px;
+    }
+    .gh-stat-card {
+      background: rgba(240,236,228,0.03);
+      border: 1px solid rgba(240,236,228,0.06);
+      padding: 32px 28px;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s, border-color 0.3s;
+    }
+    .gh-stat-card::before {
+      content: '';
+      position: absolute; left: 0; top: 0; bottom: 0;
+      width: 2px;
+      background: var(--green);
+      transform: scaleY(0);
+      transition: transform 0.3s ease;
+    }
+    .gh-stat-card:hover { background: rgba(16,185,129,0.06); border-color: rgba(16,185,129,0.2); }
+    .gh-stat-card:hover::before { transform: scaleY(1); }
+    .gh-stat-label {
+      font-size: 10px;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .gh-stat-value {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(40px, 5vw, 72px);
+      color: var(--white);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .gh-stat-value.loading { font-size: 28px; color: var(--muted); animation: gh-pulse 1.5s ease-in-out infinite; }
+    @keyframes gh-pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    .gh-stat-sub {
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+    }
+    .gh-streak-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .gh-streak-img {
+      border: 1px solid rgba(240,236,228,0.06);
+      border-radius: 6px;
+      max-width: 100%;
+      height: auto;
+      transition: border-color 0.3s;
+    }
+    .gh-streak-img:hover { border-color: rgba(16,185,129,0.3); }
+    .gh-langs-row {
+      margin-top: 48px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .gh-lang-pill {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--green);
+      border: 1px solid rgba(16,185,129,0.25);
+      background: rgba(16,185,129,0.07);
+      padding: 6px 14px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .gh-lang-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); }
 
-**Backend & Storage**
+    /* ── GitHub Achievement Badges ── */
+    .gh-achievements-wrap {
+      margin-top: 48px;
+      width: 100%;
+      text-align: center;
+    }
+    .gh-achievements-label {
+      font-size: 10px;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .gh-achievements-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .gh-achievement-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 116px;
+      padding: 20px 12px 16px;
+      background: rgba(240,236,228,0.03);
+      border: 1px solid rgba(240,236,228,0.06);
+      border-radius: 8px;
+      transition: border-color 0.3s, background 0.3s, transform 0.3s;
+    }
+    .gh-achievement-badge:hover {
+      border-color: rgba(16,185,129,0.3);
+      background: rgba(16,185,129,0.06);
+      transform: translateY(-4px);
+    }
+    .gh-achievement-badge img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+    }
+    .gh-achievement-badge span {
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.3;
+    }
+    @media (max-width: 768px) {
+      .gh-achievement-badge { width: 92px; padding: 16px 8px 12px; }
+      .gh-achievement-badge img { width: 44px; height: 44px; }
+    }
 
-![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Hive](https://img.shields.io/badge/Hive-FFC300?style=for-the-badge&logo=flutter&logoColor=black)
-![REST API](https://img.shields.io/badge/REST%20API-FF6F00?style=for-the-badge&logo=postman&logoColor=white)
+    /* ── GitFut Player Card ── */
+    .gh-card-wrap {
+      margin-top: 48px;
+      text-align: center;
+    }
+    .gh-card-credit {
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      margin-top: 12px;
+    }
+    .gh-card-credit a {
+      color: var(--green);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .gh-card-credit a:hover { color: var(--white); }
 
-**Languages & Tools**
+    /* ── Hamburger / Mobile Nav ── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 24px;
+      height: 1px;
+      background: var(--white);
+      transition: transform 0.3s, opacity 0.3s;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    .mobile-nav-drawer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(8,8,8,0.97);
+      z-index: 99;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+    }
+    .mobile-nav-drawer.open { display: flex; }
+    .mobile-nav-drawer a {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 48px;
+      letter-spacing: 0.15em;
+      color: var(--white);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .mobile-nav-drawer a:hover { color: var(--green); }
+    .mobile-nav-drawer .nav-resume-link {
+      font-size: 24px !important;
+      color: var(--green) !important;
+      border: 1px solid rgba(16,185,129,0.3);
+      padding: 10px 24px !important;
+      border-radius: 4px;
+    }
 
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+    @media (max-width: 768px) {
+      nav { padding: 20px 24px; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      section { padding: 80px 24px; }
+      #hero { padding: 0 24px; padding-top: 80px; justify-content: flex-start; padding-bottom: 40px; }
+      .hero-title-container { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
+      .hero-profile-pic { width: 100%; height: auto; max-height: 400px; }
+      .hero-subtitle { margin-top: 24px; }
+      .marquee-wrap { position: relative; bottom: auto; margin-top: 40px; width: 100vw; margin-left: -24px; }
+      .work-grid { grid-template-columns: 1fr; }
+      .work-item:first-child { grid-column: 1; }
+      .about-inner { grid-template-columns: 1fr; gap: 40px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+      footer { flex-direction: column; gap: 16px; text-align: center; }
+      .floating-whatsapp { bottom: 20px; right: 20px; width: 50px; height: 50px; font-size: 26px; }
+      .github-stats-grid { grid-template-columns: 1fr; }
+      .gh-streak-wrap { flex-direction: column; align-items: center; }
+      .gh-streak-img { width: 100%; }
+      .contact-method { font-size: 20px; }
+      .hero-desc { font-size: 12px; }
+      .skills-list { grid-template-columns: 1fr; }
+    }
 
-## 🚀 Featured Projects
+    @media (min-width: 769px) and (max-width: 1024px) {
+      nav { padding: 24px 32px; }
+      section { padding: 100px 32px; }
+      #hero { padding: 0 32px; padding-top: 90px; padding-bottom: 80px; }
+      .about-inner { gap: 48px; }
+      .github-stats-grid { grid-template-columns: repeat(3, 1fr); }
+      .work-grid { grid-template-columns: 1fr 1fr; }
+      .contact-grid { gap: 48px; }
+    }
+  </style>
+  <script data-goatcounter="https://monam.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  
+<div class="cursor"><div class="cursor-dot" id="cursorDot"></div></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="grid-bg"></div>
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+  
+<div id="loader">
+  <div class="loader-count" id="loaderCount">0</div>
+  <div class="loader-bar-wrap"><div class="loader-bar" id="loaderBar"></div></div>
+  <div class="loader-text">Compiling Application</div>
+</div>
+  
+<a href="https://wa.me/923197211678" class="floating-whatsapp cursor-hover-target" target="_blank" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
 
-| Project | Stack | Highlights |
-|---|---|---|
-| [**Visiting Card Scanner**](https://github.com/Monam1083/Visiting-Card-Scanner-Flutter-Application) | Flutter · Sqflite · Provider | ML Kit OCR contact scanner with full CRUD, camera integration, signed APK |
-| [**Language Translator**](https://github.com/Monam1083/Language-Translator-Application) | Flutter · Google Translate · STT/TTS | 30+ languages, real-time voice input, offline history, dark mode |
-| [**Flickd — Movie DB App**](https://github.com/Monam1083/Movie-Application) | Flutter · Riverpod · TMDB API | Search, trailers, cast info, and local watchlist storage |
-| [**Weather App**](https://github.com/Monam1083/Weather-Mobile-Application) | Flutter · OpenWeather API | Location-based forecasts with animated weather conditions |
-| [**AI Blood Pressure Prediction**](https://github.com/Monam1083/AI-Blood-Pressure-Prediction-System) | Python · Flask · scikit-learn | Compares Random Forest, SVM & Logistic Regression models |
+<nav id="mainNav">
+  <a class="nav-logo" href="#">M<span>.</span>MONAM Majeed</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Projects</a></li>
+    <li><a href="#resume">Timeline</a></li>
+    <li><a href="#github-stats">GitHub</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://drive.google.com/file/d/1qSB2v8ioMtyGF8HgFKT3zaJYv_emUNKJ/view?usp=sharing" target="_blank" class="nav-resume-link">Resume ↗</a></li>
+  </ul>
+  <button class="nav-hamburger cursor-hover-target" id="hamburgerBtn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
 
-## 📊 GitHub Stats
+<div class="mobile-nav-drawer" id="mobileDrawer">
+  <a href="#about" class="mobile-nav-link">About</a>
+  <a href="#work" class="mobile-nav-link">Projects</a>
+  <a href="#resume" class="mobile-nav-link">Timeline</a>
+  <a href="#github-stats" class="mobile-nav-link">GitHub</a>
+  <a href="#contact" class="mobile-nav-link">Contact</a>
+  <a href="https://drive.google.com/file/d/1_92ByaewYfAL2SRjRVQftEn-_eYkgtyP/view?usp=sharing" target="_blank" class="nav-resume-link">Resume ↗</a>
+</div>
+  
+<section id="hero">
+  <div class="hero-eyebrow" id="heroEyebrow">Software Engineer | Mobile Application Developer | Flutter Developer</div>
+  <div class="hero-title-container">
+    <h1 class="hero-title">
+      <span class="hero-title-line" id="heroLine1">MUHAMMAD</span>
+      <span class="hero-title-line green" id="heroLine2">MONAM</span>
+      <span class="hero-title-line" id="heroLine3">MAJEED</span>
+    </h1>
+    <img src="monam.jpeg" class="hero-profile-pic" id="heroProfilePic" alt="Muhammad Monam Majeed - Flutter Developer in Lahore Pakistan">
+  </div>
+  <div class="hero-socials" id="heroSocials">
+    <a href="https://github.com/Monam1083" target="_blank" class="cursor-hover-target"><i class="devicon-github-original"></i> GitHub</a>
+    <a href="https://wa.me/923197211678" target="_blank" class="cursor-hover-target"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    <a href="https://www.linkedin.com/in/monammajeed/" target="_blank" class="cursor-hover-target"><i class="devicon-linkedin-plain"></i> LinkedIn</a>
+  </div>
+  <div class="hero-subtitle" id="heroSub">
+    <p class="hero-desc">I craft pixel-perfect, highly performant, and scalable cross-platform mobile applications. Turning complex business logic into intuitive, user-centric digital experiences.</p>
+  </div>
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span class="marquee-item">Flutter Development <span>✦</span></span>
+      <span class="marquee-item">Dart <span>✦</span></span>
+      <span class="marquee-item">State Management <span>✦</span></span>
+      <span class="marquee-item">Firebase Integration <span>✦</span></span>
+      <span class="marquee-item">REST APIs <span>✦</span></span>
+      <span class="marquee-item">Mobile UI/UX <span>✦</span></span>
+      <span class="marquee-item">Flutter Development <span>✦</span></span>
+      <span class="marquee-item">Dart <span>✦</span></span>
+      <span class="marquee-item">State Management <span>✦</span></span>
+      <span class="marquee-item">Firebase Integration <span>✦</span></span>
+      <span class="marquee-item">REST APIs <span>✦</span></span>
+      <span class="marquee-item">Mobile UI/UX <span>✦</span></span>
+    </div>
+  </div>
+</section>
 
-<p align="center">
-  <a href="https://github.com/Monam1083">
-    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/stats.svg" alt="GitHub Stats" />
-  </a>
-</p>
+<section id="about">
+  <div class="section-label">About & Tech Stack</div>
+  <div class="about-inner">
+    <div>
+      <h2 class="about-heading reveal">Crafting experiences,<br><em>one widget at a time.</em></h2>
+      <p class="about-body reveal">As a dedicated Software Engineering student at Lahore Garrison University, I specialize in Flutter development. I build cross-platform mobile applications that feel native, run flawlessly, and solve real-world problems.</p>
+      <p class="about-body reveal">My engineering approach is rooted in robust architecture. I utilize state management solutions like Riverpod and Provider, integrate complex REST APIs, and implement secure local and cloud databases to ensure my apps are scalable and maintainable.</p>
+    </div>
+    <div>
+      <div class="skills-list reveal">
+        <div class="skill-item cursor-hover-target"><i class="devicon-dart-plain"></i> Dart</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-flutter-plain"></i> Flutter</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-firebase-plain"></i> Firebase</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-sqlite-plain"></i> Sqflite</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-github-original"></i> Version Control</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-google-plain"></i> Riverpod & Provider</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-python-plain"></i> Python</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-vscode-plain"></i> VS Code</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-postman-plain"></i> Postman</div>
+        <div class="skill-item cursor-hover-target"><i class="devicon-android-plain"></i> Mobile Architecture</div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section id="work">
+  <div class="section-label">Featured Projects</div>
+  <div class="work-grid">
+    
+    <!-- PROJECT 1: Visiting Card Scanner (featured - full width) -->
+    <div class="work-item reveal cursor-hover-target">
+      <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80" alt="Visiting Card Scanner App" class="work-thumb">
+      <div class="work-overlay">
+        <div class="work-category">Flutter + Sqflite + Provider</div>
+        <div class="work-name">Visiting Card Scanner Application</div>
+        <div class="work-desc">Built with Provider state management and Sqflite local database. Handles contact storage with full CRUD operations, camera integration for card scanning, and a signed APK deployed for Android.</div>
+        <div class="work-links">
+          <a href="https://github.com/Monam1083/Visiting-Card-Scanner-Flutter-Application" target="_blank" class="github-btn"><i class="devicon-github-original"></i> Source Code</a>
+          <a href="https://drive.google.com/file/d/15JoeCV5pcJnQLkekvLFf0uqS20H9YNqh/view?usp=drive_link" target="_blank" class="demo-btn"><i class="fa-solid fa-play"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
 
-<p align="center">
-  <a href="https://github.com/Monam1083">
-    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/streak.svg" alt="GitHub Streak" />
-  </a>
-</p>
+    <!-- PROJECT 2: Weather App -->
+    <div class="work-item reveal cursor-hover-target">
+      <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80" alt="Weather App" class="work-thumb">
+      <div class="work-overlay">
+        <div class="work-category">Flutter + REST API (OpenWeather)</div>
+        <div class="work-name">Weather Application</div>
+        <div class="work-desc">Location-based weather forecasting app delivering accurate real-time data, hourly forecasts, and beautiful animated weather conditions.</div>
+        <div class="work-links">
+          <a href="https://github.com/Monam1083/Weather-Mobile-Application" target="_blank" class="github-btn"><i class="devicon-github-original"></i> Source Code</a>
+          <a href="https://drive.google.com/file/d/1vh6xklfpkWu5BOph2eMyF3eo-M7ttn-7/view?usp=sharing" target="_blank" class="demo-btn"><i class="fa-solid fa-play"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
 
-<p align="center">
-  <a href="https://github.com/Monam1083">
-    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/top-langs.svg" alt="Top Languages" />
-  </a>
-</p>
+    <!-- PROJECT 3: Movie DB -->
+    <div class="work-item reveal cursor-hover-target">
+      <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80" alt="Movie DB App" class="work-thumb">
+      <div class="work-overlay">
+        <div class="work-category">Flutter + TMDB API + Riverpod</div>
+        <div class="work-name">Movie DB Application</div>
+        <div class="work-desc">A cinematic discovery app fetching data from TMDB. Features search, trailers, cast info, and watchlist saving via local storage.</div>
+        <div class="work-links">
+          <a href="https://github.com/Monam1083/Movie-Application" target="_blank" class="github-btn"><i class="devicon-github-original"></i> Source Code</a>
+          <a href="https://drive.google.com/file/d/1R4Q87FNE6xQWr5Bfn7KoQxRl-ywrJ4ee/view?usp=drive_link" target="_blank" class="demo-btn"><i class="fa-solid fa-play"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
 
-## 🎮 3D Contribution Graph
+    <!-- PROJECT 4: Language Translator -->
+    <div class="work-item reveal cursor-hover-target">
+      <div class="work-thumb work-thumb--svg">
+        <svg width="100%" height="100%" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <rect width="800" height="380" fill="#0d0d1a"/>
+          <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1" fill="rgba(91,108,246,0.25)"/></pattern>
+          <rect width="800" height="380" fill="url(#dots)"/>
+          <ellipse cx="200" cy="190" rx="180" ry="120" fill="rgba(91,108,246,0.12)"/>
+          <ellipse cx="600" cy="190" rx="160" ry="110" fill="rgba(6,182,212,0.1)"/>
+          <rect x="80" y="40" width="180" height="300" rx="20" fill="#1a1a2e" stroke="#5B6CF6" stroke-width="1.5"/>
+          <rect x="90" y="55" width="160" height="270" rx="12" fill="#12122a"/>
+          <rect x="90" y="55" width="160" height="28" rx="12" fill="#1e1e3a"/>
+          <circle cx="170" cy="69" r="5" fill="#5B6CF6" opacity="0.7"/>
+          <text x="170" y="74" font-family="monospace" font-size="9" fill="#a0a8f0" text-anchor="middle">EN</text>
+          <rect x="100" y="95" width="140" height="14" rx="3" fill="#2a2a4a"/>
+          <text x="108" y="106" font-family="monospace" font-size="8" fill="#7a80c0">Source Language</text>
+          <text x="108" y="129" font-family="monospace" font-size="7.5" fill="#c8ccff">Hello, how are you?</text>
+          <text x="108" y="145" font-family="monospace" font-size="7.5" fill="#c8ccff">Good morning!</text>
+          <text x="108" y="161" font-family="monospace" font-size="7.5" fill="#c8ccff">Nice to meet you.</text>
+          <circle cx="170" cy="210" r="22" fill="#5B6CF6" opacity="0.9"/>
+          <rect x="165" y="197" width="10" height="16" rx="5" fill="white"/>
+          <path d="M160 213 Q160 224 170 224 Q180 224 180 213" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <line x1="170" y1="224" x2="170" y2="230" stroke="white" stroke-width="2"/>
+          <line x1="163" y1="230" x2="177" y2="230" stroke="white" stroke-width="2"/>
+          <line x1="280" y1="160" x2="320" y2="160" stroke="#5B6CF6" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+          <polygon points="318,155 328,160 318,165" fill="#5B6CF6" opacity="0.9"/>
+          <line x1="320" y1="200" x2="280" y2="200" stroke="#06B6D4" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+          <polygon points="282,195 272,200 282,205" fill="#06B6D4" opacity="0.9"/>
+          <circle cx="300" cy="180" r="18" fill="#1a1a2e" stroke="#5B6CF6" stroke-width="1.5"/>
+          <path d="M293 175 L307 175 L304 171" fill="none" stroke="#5B6CF6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M307 185 L293 185 L296 189" fill="none" stroke="#06B6D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="540" y="40" width="180" height="300" rx="20" fill="#1a1a2e" stroke="#06B6D4" stroke-width="1.5"/>
+          <rect x="550" y="55" width="160" height="270" rx="12" fill="#0d1a1f"/>
+          <rect x="550" y="55" width="160" height="28" rx="12" fill="#0d2020"/>
+          <circle cx="630" cy="69" r="5" fill="#06B6D4" opacity="0.7"/>
+          <text x="630" y="74" font-family="monospace" font-size="9" fill="#80d8f0" text-anchor="middle">UR</text>
+          <text x="568" y="106" font-family="monospace" font-size="8" fill="#60b8d0">Translated Text</text>
+          <text x="682" y="129" font-family="serif" font-size="8" fill="#80e8f8" text-anchor="end">ہیلو، آپ کیسے ہیں؟</text>
+          <text x="672" y="145" font-family="serif" font-size="8" fill="#80e8f8" text-anchor="end">صبح بخیر!</text>
+          <text x="675" y="161" font-family="serif" font-size="8" fill="#80e8f8" text-anchor="end">آپ سے مل کر خوشی ہوئی</text>
+          <circle cx="630" cy="210" r="22" fill="#06B6D4" opacity="0.85"/>
+          <line x1="622" y1="204" x2="622" y2="216" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <line x1="626" y1="200" x2="626" y2="220" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <line x1="630" y1="197" x2="630" y2="223" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="634" y1="200" x2="634" y2="220" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <line x1="638" y1="204" x2="638" y2="216" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <rect x="290" y="330" width="220" height="30" rx="8" fill="rgba(91,108,246,0.15)" stroke="#5B6CF6" stroke-width="1"/>
+          <text x="400" y="350" font-family="monospace" font-size="10" fill="#a0b0ff" text-anchor="middle">30+ Languages Supported</text>
+        </svg>
+      </div>
+      <div class="work-overlay">
+        <div class="work-category">Flutter + Google Translate + TTS + STT</div>
+        <div class="work-name">Language Translator Application</div>
+        <div class="work-desc">Translate across 30+ languages with real-time voice input, text-to-speech playback, offline history, favorites, and full dark mode — built on Material 3.</div>
+        <div class="work-links">
+          <a href="https://github.com/Monam1083/Language-Translator-Application" target="_blank" class="github-btn"><i class="devicon-github-original"></i> Source Code</a>
+          <a href="https://drive.google.com/file/d/1n-Xf5ff2hVvsMYf-YtTyQecDe0mYcWBk/view?usp=drive_link" target="_blank" class="demo-btn"><i class="fa-solid fa-play"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
 
-<p align="center">
-  <a href="https://github.com/Monam1083">
-    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="90%"/>
-  </a>
-</p>
+    <!-- PROJECT 5: AI Blood Pressure Prediction (NEW) -->
+    <div class="work-item reveal cursor-hover-target">
+      <img src="healthcare.jpg" alt="AI Blood Pressure Prediction System" class="work-thumb" style="height:380px;">
+      <div class="work-overlay">
+        <div class="work-category">Python · Flask · scikit-learn · 3 ML Models</div>
+        <div class="work-name">AI Blood Pressure Prediction System</div>
+        <div class="work-desc">Machine learning system predicting blood pressure using three comparative ML models — Random Forest, SVM, and Linear Regression — with a Flask backend and model evaluation dashboard.</div>
+        <div class="work-links">
+          <a href="https://github.com/Monam1083/AI-Blood-Pressure-Prediction-System" target="_blank" class="github-btn"><i class="devicon-github-original"></i> Source Code</a>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+  
+<section id="resume">
+
+  <div class="section-label">Experience</div>
+  <div class="card-container">
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-briefcase"></i></div>
+      <div class="card-content">
+        <h3>Flutter Developer Intern</h3>
+        <p class="institution company-name">Adivantech (Pvt) Ltd &nbsp;·&nbsp; Remote</p>
+        <p class="exp-desc">Working on mobile app development for production Flutter applications within the Mobile App Development department. Collaborating remotely to build and refine cross-platform features.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Flutter</span>
+          <span class="exp-tag">Dart</span>
+          <span class="exp-tag">Mobile App Development</span>
+          <span class="exp-tag">Remote Collaboration</span>
+        </div>
+        <br>
+        <span class="date-pill">10 Jul to 10 Sep  2026 (ongoing)· 2 months</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-briefcase"></i></div>
+      <div class="card-content">
+        <h3>Software Engineering Job Simulation</h3>
+        <p class="institution company-name">JPMorgan Chase &amp; Co. &nbsp;·&nbsp; Forage</p>
+        <p class="exp-desc">Completed a virtual job simulation covering backend software engineering tasks, including project setup, Kafka integration, H2 database integration, and building REST APIs and controllers.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Java</span>
+          <span class="exp-tag">Kafka</span>
+          <span class="exp-tag">REST APIs</span>
+          <span class="exp-tag">H2 Database</span>
+        </div>
+        <br>
+        <span class="date-pill">July 2026</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-briefcase"></i></div>
+      <div class="card-content">
+        <h3>Advanced Software Engineering Job Simulation</h3>
+        <p class="institution company-name">Walmart Global Tech &nbsp;·&nbsp; Forage</p>
+        <p class="exp-desc">Completed an advanced virtual job simulation covering advanced data structures, software architecture, relational database design, and data munging practices.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Data Structures</span>
+          <span class="exp-tag">Software Architecture</span>
+          <span class="exp-tag">Database Design</span>
+          <span class="exp-tag">Data Munging</span>
+        </div>
+        <br>
+        <span class="date-pill">July 2026</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-briefcase"></i></div>
+      <div class="card-content">
+        <h3>Technology Job Simulation</h3>
+        <p class="institution company-name">Deloitte &nbsp;·&nbsp; Forage</p>
+        <p class="exp-desc">Completed a virtual job simulation involving development and coding tasks, and wrote a technical proposal for building a client-facing dashboard solution.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Coding</span>
+          <span class="exp-tag">Development</span>
+          <span class="exp-tag">Technical Proposal Writing</span>
+          <span class="exp-tag">Client Solutions</span>
+        </div>
+        <br>
+        <span class="date-pill">July 2026</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fab fa-github"></i></div>
+      <div class="card-content">
+        <h3>Open Source Contributor</h3>
+        <p class="institution company-name">GitHub &nbsp;·&nbsp; Self-Employed</p>
+        <p class="exp-desc">Contributing to open source projects through the fork-commit-merge workflow. Submitting pull requests, collaborating with maintainers, and improving code quality across community-driven repositories.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Git</span>
+          <span class="exp-tag">GitHub</span>
+          <span class="exp-tag">Open Source</span>
+          <span class="exp-tag">Pull Requests</span>
+        </div>
+        <br>
+        <span class="date-pill">Mar 2025 · Ongoing</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-briefcase"></i></div>
+      <div class="card-content">
+        <h3>Flutter Developer Intern</h3>
+        <p class="institution company-name">CodeAlpha &nbsp;·&nbsp; Remote</p>
+        <p class="exp-desc">Developed and shipped Flutter features for production apps. Integrated REST APIs, implemented Provider-based state management, and translated Figma mockups into pixel-perfect UI components independently.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Flutter</span>
+          <span class="exp-tag">Dart</span>
+          <span class="exp-tag">REST APIs</span>
+          <span class="exp-tag">State Management</span>
+          <span class="exp-tag">UI/UX</span>
+        </div>
+        <br>
+        <span class="date-pill">Oct 2025 · 1 month</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top: 60px;">Education</div>
+  <div class="card-container">
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-graduation-cap"></i></div>
+      <div class="card-content">
+        <h3>BS Software Engineering</h3>
+        <p class="institution company-name">Lahore Garrison University</p>
+        <span class="date-pill">2023 – 2027 (Expected)</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-building"></i></div>
+      <div class="card-content">
+        <h3>Intermediate (ICS)</h3>
+        <p class="institution company-name">Punjab College Chishtian</p>
+        <span class="date-pill">2021 – 2023</span>
+      </div>
+    </div>
+    <div class="timeline-card reveal cursor-hover-target">
+      <div class="icon-box"><i class="fas fa-school"></i></div>
+      <div class="card-content">
+        <h3>Matriculation (Science)</h3>
+        <p class="institution company-name">The Educators School</p>
+        <span class="date-pill">2019 – 2021</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top: 60px;">Certifications</div>
+  <div class="certifications-grid">
+    <div class="cert-box reveal-slide cursor-hover-target">
+      <img src="IBM.png" alt="IBM Certificate">
+      <div class="cert-name">Developing Mobile App with Flutter</div>
+    </div>
+    <div class="cert-box reveal-slide cursor-hover-target">
+      <img src="university OF Michigan.png" alt="University of Michigan Certificate">
+      <div class="cert-name">Python Programming Language</div>
+    </div>
+    <div class="cert-box reveal-slide cursor-hover-target">
+      <img src="udemy.png" alt="Udemy Certificate">
+      <div class="cert-name">Build Mobile Apps with Flutter Like a Pro</div>
+    </div>
+    <div class="cert-box reveal-slide cursor-hover-target">
+      <img src="google Cloud.png" alt="Google Cloud Certificate">
+      <div class="cert-name">Flutter — Google Cloud</div>
+    </div>
+    <div class="cert-box reveal-slide cursor-hover-target">
+      <img src="github.png" alt="GitHub Certificate">
+      <div class="cert-name">GitHub Essentials</div>
+    </div>
+  </div>
+</section>
+  
+<section id="github-stats">
+  <div class="section-label">GitHub Activity</div>
+
+  <!-- Live stat counters pulled via GitHub API -->
+  <div class="github-stats-grid">
+    <div class="gh-stat-card reveal cursor-hover-target">
+      <div class="gh-stat-label">Public Repos</div>
+      <div class="gh-stat-value loading" id="ghRepos">···</div>
+      <div class="gh-stat-sub">Open-source projects</div>
+    </div>
+    <div class="gh-stat-card reveal cursor-hover-target">
+      <div class="gh-stat-label">Total Stars</div>
+      <div class="gh-stat-value loading" id="ghStars">···</div>
+      <div class="gh-stat-sub">Stars earned</div>
+    </div>
+    <div class="gh-stat-card reveal cursor-hover-target">
+      <div class="gh-stat-label">Followers</div>
+      <div class="gh-stat-value loading" id="ghFollowers">···</div>
+      <div class="gh-stat-sub">GitHub followers</div>
+    </div>
+  </div>
+
+  <!-- Stats, Streak & Top Languages image cards -->
+  <div class="gh-streak-wrap reveal">
+    <img
+      src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/stats.svg"
+      alt="GitHub Stats"
+      class="gh-streak-img"
+      loading="lazy"
+      id="ghStatsImg"
+    >
+    <img
+      src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/streak.svg"
+      alt="GitHub Streak"
+      class="gh-streak-img"
+      loading="lazy"
+      id="ghStreakImg"
+    >
+    <img
+      src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/top-langs.svg"
+      alt="Top Languages"
+      class="gh-streak-img"
+      loading="lazy"
+      id="ghLangsImg"
+    >
+  </div>
+
+  <!-- GitHub Achievement Badges -->
+  <div class="gh-achievements-wrap reveal">
+    <div class="gh-achievements-label">Achievements</div>
+    <div class="gh-achievements-grid">
+      <div class="gh-achievement-badge cursor-hover-target">
+        <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" alt="Galaxy Brain badge" loading="lazy">
+        <span>Galaxy Brain</span>
+      </div>
+      <div class="gh-achievement-badge cursor-hover-target">
+        <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" alt="Pair Extraordinaire badge" loading="lazy">
+        <span>Pair Extraordinaire</span>
+      </div>
+      <div class="gh-achievement-badge cursor-hover-target">
+        <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" alt="YOLO badge" loading="lazy">
+        <span>YOLO</span>
+      </div>
+      <div class="gh-achievement-badge cursor-hover-target">
+        <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" alt="Pull Shark badge" loading="lazy">
+        <span>Pull Shark</span>
+      </div>
+      <div class="gh-achievement-badge cursor-hover-target">
+        <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" alt="Quickdraw badge" loading="lazy">
+        <span>Quickdraw</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3D Contribution Graph -->
+  <div class="gh-card-wrap reveal">
+    <img
+      src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile-3d-contrib/profile-night-rainbow.svg"
+      alt="Muhammad Monam Majeed GitHub 3D Contribution Graph"
+      class="gh-streak-img"
+      style="max-width: 900px; width: 100%;"
+      loading="lazy"
+    >
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-bg-text">CONTACT</div>
+  <div class="contact-inner">
+    <h2 class="contact-heading reveal">Let's <em>get in</em><br>touch.</h2>
+    <p class="contact-subheading reveal">Open to internships, jobs, freelance &amp; collaborations</p>
+    <div class="reveal">
+      <span class="contact-availability">
+        <span class="contact-availability-dot"></span>
+        Available · July 2026 · Lahore onsite / Remote
+      </span>
+    </div>
+    <div class="contact-grid reveal">
+      <div>
+        <div class="contact-info">
+          <p>Whether you need a full-scale mobile application from scratch, API integrations, or bug fixes for your existing Flutter codebase, I am ready to turn your ideas into functional realities.</p>
+        </div>
+        <div class="contact-links-stack">
+          <a href="mailto:muhammadmonammajeed@gmail.com" class="contact-method cursor-hover-target"><i class="devicon-google-plain"></i> muhammadmonammajeed@gmail.com</a>
+          <a href="https://github.com/Monam1083" target="_blank" class="contact-method cursor-hover-target"><i class="devicon-github-original"></i> GitHub</a>
+          <a href="https://wa.me/923197211678" target="_blank" class="contact-method wa-link cursor-hover-target"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://www.linkedin.com/in/monammajeed/" target="_blank" class="contact-method cursor-hover-target"><i class="devicon-linkedin-plain"></i> LinkedIn</a>
+        </div>
+      </div>
+      <form id="contactForm" class="project-form">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required class="cursor-hover-target">
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required class="cursor-hover-target">
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="Project Details / Message" required class="cursor-hover-target"></textarea>
+        </div>
+        <button type="submit" id="submitBtn" class="submit-btn cursor-hover-target">Send Request</button>
+      </form>
+    </div>
+  </div>
+</section>
+  
+<footer>
+  <div class="footer-copy">© 2026 Muhammad Monam Majeed</div>
+  <div class="footer-copy">Crafted with HTML, CSS & JS</div>
+  <div class="footer-copy footer-ownership">
+    All rights reserved · Design &amp; code may not be reproduced without permission ·
+    <a href="https://github.com/Monam1083/Portfolio/blob/main/LICENSE" target="_blank" class="footer-license-link">LICENSE</a>
+  </div>
+</footer>
+  
+<script>
+  // Ownership watermark — do not remove
+  console.log(
+    "%cDesigned & built by Muhammad Monam Majeed %chttps://monam.tech %c© 2026 — All rights reserved",
+    "color:#f0ece4;background:#080808;padding:4px 8px;font-weight:bold;",
+    "color:#10B981;background:#080808;padding:4px 8px;",
+    "color:#888070;background:#080808;padding:4px 8px;font-size:11px;"
+  );
+
+  const loaderCount = document.getElementById('loaderCount');
+  const loaderBar = document.getElementById('loaderBar');
+  const loader = document.getElementById('loader');
+  let count = 0;
+  const interval = setInterval(() => {
+    count += Math.floor(Math.random() * 8) + 2;
+    if (count >= 100) {
+      count = 100;
+      clearInterval(interval);
+      setTimeout(endLoader, 300);
+    }
+    loaderCount.textContent = count;
+    loaderBar.style.width = count + '%';
+  }, 60);
+  
+  function endLoader() {
+    loader.style.transition = 'opacity 0.8s ease, transform 0.8s cubic-bezier(0.16,1,0.3,1)';
+    loader.style.opacity = '0';
+    loader.style.transform = 'translateY(-60px)';
+    setTimeout(() => { loader.style.display = 'none'; startIntro(); }, 800);
+  }
+  
+  function startIntro() {
+    document.getElementById('mainNav').classList.add('visible');
+    setTimeout(() => document.getElementById('heroEyebrow').classList.add('visible'), 200);
+    setTimeout(() => document.getElementById('heroLine1').classList.add('slide-up'), 350);
+    setTimeout(() => document.getElementById('heroLine2').classList.add('slide-up'), 480);
+    setTimeout(() => document.getElementById('heroLine3').classList.add('slide-up'), 600);
+    setTimeout(() => document.getElementById('heroProfilePic').classList.add('visible'), 700);
+    setTimeout(() => document.getElementById('heroSocials').classList.add('visible'), 900);
+    setTimeout(() => document.getElementById('heroSub').classList.add('visible'), 1050);
+  }
+  
+  const dot = document.getElementById('cursorDot');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+  
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    dot.style.left = mx + 'px'; dot.style.top = my + 'px';
+  });
+  
+  function animateCursor() {
+    rx += (mx - rx) * 0.12;
+    ry += (my - ry) * 0.12;
+    ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+    requestAnimationFrame(animateCursor);
+  }
+  animateCursor();
+  
+  document.querySelectorAll('a, button, .work-item, .skill-item, .timeline-card, .cert-box, .cursor-hover-target').forEach(el => {
+    el.addEventListener('mouseenter', () => ring.classList.add('hovered'));
+    el.addEventListener('mouseleave', () => ring.classList.remove('hovered'));
+  });
+  
+  const reveals = document.querySelectorAll('.reveal, .reveal-slide');
+  const observer = new IntersectionObserver((entries) => {
+    let delay = 0;
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('revealed'), delay);
+        delay += 150;
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  reveals.forEach(el => observer.observe(el));
+  
+  // ── GitHub Stats via self-hosted static JSON (no rate limits) ──
+  async function loadGitHubStats() {
+    try {
+      const res = await fetch('https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/stats.json');
+      if (!res.ok) throw new Error('Stats file not found');
+      const data = await res.json();
+
+      const reposEl = document.getElementById('ghRepos');
+      const followersEl = document.getElementById('ghFollowers');
+      const starsEl = document.getElementById('ghStars');
+
+      reposEl.textContent = data.public_repos ?? '—';
+      followersEl.textContent = data.followers ?? '—';
+      starsEl.textContent = data.total_stars ?? '—';
+
+      reposEl.classList.remove('loading');
+      followersEl.classList.remove('loading');
+      starsEl.classList.remove('loading');
+    } catch (e) {
+      ['ghRepos','ghStars','ghFollowers'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.textContent = '—'; el.classList.remove('loading'); }
+      });
+    }
+  }
+  loadGitHubStats();
+
+  // ── Hamburger / Mobile Drawer ──
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileDrawer = document.getElementById('mobileDrawer');
+  hamburgerBtn.addEventListener('click', () => {
+    hamburgerBtn.classList.toggle('open');
+    mobileDrawer.classList.toggle('open');
+    document.body.style.overflow = mobileDrawer.classList.contains('open') ? 'hidden' : '';
+  });
+  document.querySelectorAll('.mobile-nav-link, .mobile-nav-drawer .nav-resume-link').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburgerBtn.classList.remove('open');
+      mobileDrawer.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+
+  const submitBtn = document.getElementById('submitBtn');
+  contactForm.addEventListener('submit', async function(event) {
+    event.preventDefault();
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'Sending...';
+    const formData = new FormData(contactForm);
+    try {
+      const response = await fetch("https://formspree.io/f/mojryazk", {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (response.ok) {
+        submitBtn.textContent = 'Message Sent!';
+        submitBtn.style.background = '#4CAF50';
+        contactForm.reset();
+        setTimeout(() => { submitBtn.textContent = originalText; submitBtn.style.background = 'var(--green)'; }, 3000);
+      } else {
+        submitBtn.textContent = 'Error. Try Again.';
+      }
+    } catch (error) {
+      submitBtn.textContent = 'Error. Try Again.';
+    }
+  });
+</script>
+</body>
+</html>
