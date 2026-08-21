@@ -19,7 +19,7 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
 
 - 🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
 - 💼 Flutter Developer Intern @ **Adivantech (Pvt) Ltd** — building *TimeFlow*
-- 🏅 Certified by IBM & Google Cloud · 
+- 🏅 Certified by IBM & Google Cloud
 - 💼 Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
 - 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
 - 🌱 Actively contributing to open source via fork → commit → PR workflows
@@ -71,19 +71,19 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
 
 <p align="center">
   <a href="https://github.com/Monam1083">
-    <img src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/stats.svg" alt="GitHub Stats" />
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/stats.svg?v=1" alt="GitHub Stats" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Monam1083">
-    <img src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/streak.svg" alt="GitHub Streak" />
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/streak.svg?v=1" alt="GitHub Streak" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Monam1083">
-    <img src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile/top-langs.svg" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile/top-langs.svg?v=1" alt="Top Languages" />
   </a>
 </p>
 
@@ -91,6 +91,6 @@ I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building *
 
 <p align="center">
   <a href="https://github.com/Monam1083">
-    <img src="https://cdn.jsdelivr.net/gh/Monam1083/github-stats@main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="90%"/>
+    <img src="https://raw.githubusercontent.com/Monam1083/github-stats/main/profile-3d-contrib/profile-night-rainbow.svg?v=1" alt="3D Contribution Graph" width="90%"/>
   </a>
 </p>
