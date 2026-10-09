@@ -18,7 +18,7 @@ I'm a Software Engineering student at Lahore Garrison University (6th semester, 
 I'm currently a Flutter Developer Intern at **Adivantech (Pvt) Ltd**, building **TimeFlow**, a smart time-blocking app and I'm certified by **IBM** and **Google Cloud**, with completed Forage job simulations from JPMorgan Chase & Co., Walmart Global Tech, and Deloitte.
 
 - 🎓 BS Software Engineering @ Lahore Garrison University — 6th Semester (Class of 2027)
-- 💼 Flutter Developer Intern @ **Adivantech (Pvt) Ltd** — building *TimeFlow*
+- 💼  Ex Flutter Developer Intern @ **Adivantech (Pvt) Ltd** 
 - 🏅 Certified by IBM & Google Cloud
 - 💼 Forage job simulations: JPMorgan Chase & Co., Walmart Global Tech, Deloitte
 - 🔭 Currently exploring: AI-integrated Flutter apps & Machine Learning
